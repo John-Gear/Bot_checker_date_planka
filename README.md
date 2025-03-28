@@ -14,6 +14,8 @@
 ## Демонстрация
 
 ![Демонстрация работы](https://imgur.com/a/Fzfgvtm.gif)
+![Демонстрация работы](assets/demo.gif)
+![Демонстрация работы](https://github.com/garpastyls/bot_checker_date_planka/blob/main/%D0%B4%D0%B5%D0%BC%D0%BE%D0%BD%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B.gif)
 
 ## Состав проекта
 
