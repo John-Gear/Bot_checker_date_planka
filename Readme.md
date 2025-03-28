@@ -2,7 +2,7 @@
 
 ## Description
 
-This Telegram bot is designed to retrieve information about tasks in Planka for a specific date. It helps you keep track of assigned tasks and ensures you don't miss anything important, even if you manage multiple tasks and boards. Simply press a button in the bot to instantly get an up-to-date list of your tasks.
+This Telegram bot is designed to retrieve information about tasks in [Planka](https://github.com/plankanban/planka) for a specific date. It helps you keep track of assigned tasks and ensures you don't miss anything important, even if you manage multiple tasks and boards. Simply press a button in the bot to instantly get an up-to-date list of your tasks.
 
 ### Features:
 
