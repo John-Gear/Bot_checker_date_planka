@@ -94,10 +94,15 @@ def get_due_cards(token, start_date, end_date):
             board_url = f"{PLANKA_URL}/boards/{board_id}"
             board_response = requests.get(board_url, headers=headers).json()
 
-            lists = board_response["included"]["lists"]
+            included_lists = board_response["included"]["lists"]
+            valid_list_ids = {lst["id"] for lst in included_lists}
+            
             cards = board_response["included"]["cards"]
 
             for card in cards:
+                if "listId" not in card or card["listId"] not in valid_list_ids:
+                    continue
+                
                 due_date = card.get("dueDate")
                 completed = card.get("isDueDateCompleted", False)
 
